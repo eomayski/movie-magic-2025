@@ -10,7 +10,7 @@ SoftUni JS Back-End Workshop
 - [x] Render Home Page
 - [x] Config Debugging
 - [x] Add Layout
-- [ ] Add About Page
+- [x] Add About Page
 
 
 
