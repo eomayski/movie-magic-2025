@@ -7,8 +7,10 @@ SoftUni JS Back-End Workshop
 - [x] Add Workshop Resources
 - [x] Setup Handlebars
 - [x] Setup Static Files
-- [ ] Render Home Page
-- [ ] Config Debugging
+- [x] Render Home Page
+- [x] Config Debugging
+- [x] Add Layout
+- [ ] Add About Page
 
 
 
