@@ -11,6 +11,8 @@ app.engine('hbs', handlebars.engine({
 app.set('view engine', 'hbs');
 app.set('views', 'src/views');
 
+//Setup Middlewares
+app.use(express.static('src/public'))
 
 //Routes
 app.get('/', (req, res) => {
