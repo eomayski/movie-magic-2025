@@ -1,2 +1,2 @@
-# movie-magic-2025
+# Workshop: Movie Magic
 SoftUni JS Back-End Workshop
