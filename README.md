@@ -2,6 +2,8 @@
 SoftUni JS Back-End Workshop
 
 ## Development Steps
+
+### Setup
 - [x] Initialize Project
 - [x] Add Express Server
 - [x] Add Workshop Resources
@@ -11,6 +13,12 @@ SoftUni JS Back-End Workshop
 - [x] Config Debugging
 - [x] Add Layout
 - [x] Add About Page
+---
 
-
-
+### Architecture
+- [ ] Add home controller
+- [ ] Add routes
+- [ ] Add movie data layer
+- [ ] Add movie service
+- [ ] Render movies on home page
+- [ ] Show no movie screen
