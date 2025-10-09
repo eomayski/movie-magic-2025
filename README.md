@@ -26,7 +26,7 @@ SoftUni JS Back-End Workshop
 ### Movies Creation
 - [x] Add Movie Controller
 - [x] Show Create movie page
-- [ ] Add routes
+- [x] Add routes
 - [ ] Ready body data
 - [ ] Create movie
     - [ ] Add action
