@@ -10,7 +10,5 @@ export default {
         const movie =  new Movie(movieData)
 
         return movie.save()
-
-        
     }
 }
