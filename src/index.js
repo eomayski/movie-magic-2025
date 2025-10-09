@@ -1,4 +1,4 @@
-import express from 'express';
+import express, { urlencoded } from 'express';
 import handlebars from 'express-handlebars';
 import routes from './routes.js';
 
@@ -13,8 +13,11 @@ app.engine('hbs', handlebars.engine({
 app.set('view engine', 'hbs');
 app.set('views', 'src/views');
 
-//Setup Middlewares
+//Setup static middleware
 app.use(express.static('src/public'));
+
+//Parse form data from req
+app.use(urlencoded())
 
 //Routes
 app.use(routes);
