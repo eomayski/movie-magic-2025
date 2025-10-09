@@ -22,6 +22,7 @@
   "homepage": "https://github.com/eomayski/movie-magic-2025#readme",
   "dependencies": {
     "express": "^5.1.0",
-    "express-handlebars": "^8.0.3"
+    "express-handlebars": "^8.0.3",
+    "uuid": "^13.0.0"
   }
 }
