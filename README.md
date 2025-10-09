@@ -16,7 +16,7 @@ SoftUni JS Back-End Workshop
 ---
 
 ### Architecture
-- [ ] Add home controller
+- [x] Add home controller
 - [ ] Add routes
 - [ ] Add movie data layer
 - [ ] Add movie service
