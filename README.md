@@ -27,6 +27,7 @@ SoftUni JS Back-End Workshop
 - [x] Add Movie Controller
 - [x] Show Create movie page
 - [x] Add routes
+- [x] Add 404 page
 - [x] Ready body data
 - [x] Create movie
     - [x] Add action
@@ -34,6 +35,19 @@ SoftUni JS Back-End Workshop
     - [x] Add model method for movie creation
 - [x] Add redirect to home page
 - [x] Add unique movie id
+---
+
+### Details
+- [ ] 
+
+---
+
+### Search
+- [ ] 
+---
+
+### Bonuses
+- [ ] File Persistence
 
 
 
