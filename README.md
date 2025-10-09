@@ -28,10 +28,10 @@ SoftUni JS Back-End Workshop
 - [x] Show Create movie page
 - [x] Add routes
 - [x] Ready body data
-- [ ] Create movie
-    - [ ] Add action
-    - [ ] Add service
-    - [ ] Add model method for movie creation
+- [x] Create movie
+    - [x] Add action
+    - [x] Add service
+    - [x] Add model method for movie creation
 - [ ] 
 
 
