@@ -15,11 +15,30 @@ SoftUni JS Back-End Workshop
 - [x] Add About Page
 ---
 
-### Architecture
+### Architecture and Rendering
 - [x] Add home controller
 - [x] Add movie data layer
 - [x] Add movie service
 - [x] Render movies on home page
-- [ ] Show no movie screen
+- [x] Show no movie screen
 ---
+
+### Movies Creation
+- [ ] Add Movie Controller
+- [ ] Show Create movie page
 - [ ] Add routes
+- [ ] Ready body data
+- [ ] Create movie
+    - [ ] Add action
+    - [ ] Add service
+    - [ ] Add model method for movie creation
+- [ ] 
+
+
+
+
+
+
+
+
+
