@@ -55,7 +55,7 @@ SoftUni JS Back-End Workshop
 
 ### Bonuses
 - [x] Add dynamic titles
-- [ ] File Persistence
+- [x] File Persistence
 
 
 
