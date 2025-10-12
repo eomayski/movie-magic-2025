@@ -48,7 +48,7 @@ SoftUni JS Back-End Workshop
 ### Search
 - [x] Show Search page
 - [x] Render all movies on search page
-
+- [x] Add filters
 ---
 
 ### Bonuses
