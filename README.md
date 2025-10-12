@@ -46,7 +46,7 @@ SoftUni JS Back-End Workshop
 ---
 
 ### Search
-- [ ] 
+- [x] Show Search page
 ---
 
 ### Bonuses
