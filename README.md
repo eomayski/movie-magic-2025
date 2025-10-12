@@ -50,11 +50,11 @@ SoftUni JS Back-End Workshop
 - [x] Render all movies on search page
 - [x] Add filters
 - [x] Remember search terms 
-
+- [x] Render rating 
 ---
 
 ### Bonuses
-- [ ] Add dynamic titles
+- [x] Add dynamic titles
 - [ ] File Persistence
 
 
