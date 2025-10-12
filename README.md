@@ -49,9 +49,12 @@ SoftUni JS Back-End Workshop
 - [x] Show Search page
 - [x] Render all movies on search page
 - [x] Add filters
+- [x] Remember search terms 
+
 ---
 
 ### Bonuses
+- [ ] Add dynamic titles
 - [ ] File Persistence
 
 
