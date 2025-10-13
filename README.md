@@ -1,7 +1,7 @@
 # Workshop: Movie Magic
 SoftUni JS Back-End Workshop
 
-## Development Steps
+## Workshop Part 1: ExpressJS and Templating
 
 ### Setup
 - [x] Initialize Project
@@ -56,6 +56,15 @@ SoftUni JS Back-End Workshop
 ### Bonuses
 - [x] Add dynamic titles
 - [x] File Persistence
+
+## Workshop Part 2: ExpressJS and Templating
+
+### Setup Database
+- [x] Install mongoose
+- [ ] Connect to DB
+---
+### Refactor Movies to use mongoose
+- [ ] Add movie model
 
 
 
