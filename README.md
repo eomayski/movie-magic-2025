@@ -67,6 +67,7 @@ SoftUni JS Back-End Workshop
 - [x] Add movie model
     - [x] Create movie Schema
     - [x] Create movie model
+- [x] import file movie DB
 
 
 ---
