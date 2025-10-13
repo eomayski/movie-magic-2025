@@ -1,10 +1,26 @@
-import express, { urlencoded } from 'express';
+import express, { request, urlencoded } from 'express';
 import handlebars from 'express-handlebars';
+import mongoose from 'mongoose';
+
+
 import routes from './routes.js';
 
-
-
 const app = express();
+
+//Setup Database
+const url = 'mongodb://127.0.0.1:27017'
+
+try {
+    await mongoose.connect(url, {
+        dbName: 'movie-magic-sept-2025'
+    })
+    
+    console.log('Successfully connected to DB!');
+    
+} catch (error) {
+    console.error('Can not connect to DB ', error.message);
+    
+}
 
 //Setup Handlebars
 app.engine('hbs', handlebars.engine({

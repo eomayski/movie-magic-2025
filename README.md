@@ -61,10 +61,17 @@ SoftUni JS Back-End Workshop
 
 ### Setup Database
 - [x] Install mongoose
-- [ ] Connect to DB
+- [x] Connect to DB
 ---
 ### Refactor Movies to use mongoose
-- [ ] Add movie model
+- [x] Add movie model
+    - [x] Create movie Schema
+    - [x] Create movie model
+
+
+---
+### Bonuses
+- [ ] Environment variables
 
 
 
