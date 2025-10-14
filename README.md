@@ -68,6 +68,8 @@ SoftUni JS Back-End Workshop
     - [x] Create movie Schema
     - [x] Create movie model
 - [x] import file movie DB
+- [x] General fix for own property problem
+
 
 
 ---
