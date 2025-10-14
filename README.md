@@ -71,6 +71,18 @@ SoftUni JS Back-End Workshop
 - [x] General fix for own property problem
 - [x] Refactor create movie
 - [x] Refactor search
+---
+### Add Cast Functionality
+- [x] Add New Resources
+- [ ] Add Cast model
+- [ ] Create Cast Service
+- [ ] Add Cast Controller
+---
+### Attach Cast to Movie
+---
+
+### Show Cast on Details
+
 
 
 
