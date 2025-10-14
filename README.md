@@ -70,6 +70,8 @@ SoftUni JS Back-End Workshop
 - [x] import file movie DB
 - [x] General fix for own property problem
 - [x] Refactor create movie
+- [x] Refactor search
+
 
 
 
