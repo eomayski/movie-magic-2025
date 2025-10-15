@@ -91,6 +91,7 @@ SoftUni JS Back-End Workshop
 ---
 
 ### Show Cast on Details
+- [x] Show attached casts in details (uses model population)
 
 
 
