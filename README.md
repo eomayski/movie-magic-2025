@@ -92,16 +92,9 @@ SoftUni JS Back-End Workshop
 
 ### Show Cast on Details
 - [x] Show attached casts in details (uses model population)
-
-
-
-
-
-
 ---
 ### Bonuses
-- [ ] Filter cast of already attached
-- [ ] Environment variables
+- [x] Filter cast of already attached
 
 
 
