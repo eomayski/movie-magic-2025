@@ -103,7 +103,7 @@ SoftUni JS Back-End Workshop
 ### Registration
 - [x] Add new controller
 - [x] Add registration page
-- [ ] Add user model
+- [x] Add user model
 - [ ] Add user service
 - [ ] Handle registration (create user in database)
 - [ ] Add password hashing
