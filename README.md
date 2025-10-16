@@ -95,6 +95,15 @@ SoftUni JS Back-End Workshop
 ---
 ### Bonuses
 - [x] Filter cast of already attached
+---
+## Workshop Part 3: Session and Authentication
+### Initial Setup
+- [x] Add new resources
+
+### Registration
+- [ ] Add new controller
+- [ ] Add action for registration page
+
 
 
 
