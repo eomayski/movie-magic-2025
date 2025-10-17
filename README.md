@@ -14,7 +14,6 @@ SoftUni JS Back-End Workshop
 - [x] Add Layout
 - [x] Add About Page
 ---
-
 ### Architecture and Rendering
 - [x] Add home controller
 - [x] Add movie data layer
@@ -22,7 +21,6 @@ SoftUni JS Back-End Workshop
 - [x] Render movies on home page
 - [x] Show no movie screen
 ---
-
 ### Movies Creation
 - [x] Add Movie Controller
 - [x] Show Create movie page
@@ -36,7 +34,6 @@ SoftUni JS Back-End Workshop
 - [x] Add redirect to home page
 - [x] Add unique movie id
 ---
-
 ### Details
 - [x] Add navigation button for detail page
 - [x] Add route with param for detail page
@@ -44,7 +41,6 @@ SoftUni JS Back-End Workshop
 - [x] Find movie by id from model
 - [x] Render details page with dynamic data
 ---
-
 ### Search
 - [x] Show Search page
 - [x] Render all movies on search page
@@ -52,7 +48,6 @@ SoftUni JS Back-End Workshop
 - [x] Remember search terms 
 - [x] Render rating 
 ---
-
 ### Bonuses
 - [x] Add dynamic titles
 - [x] File Persistence
@@ -87,16 +82,16 @@ SoftUni JS Back-End Workshop
 - [x] Show cast list in attach select
 - [x] Add relation between cast and movie
 - [x] Add attach cast functionality
-
 ---
-
 ### Show Cast on Details
 - [x] Show attached casts in details (uses model population)
 ---
 ### Bonuses
 - [x] Filter cast of already attached
 ---
+
 ## Workshop Part 3: Session and Authentication
+
 ### Initial Setup
 - [x] Add new resources
 
@@ -114,17 +109,21 @@ SoftUni JS Back-End Workshop
     - [x] Validate user
     - [x] Validate password
     - [x] Create token
-    - [x] Return token as cooke
+    - [x] Return token as cookie
 ---
 ### Logout
 - [x] Add logout action
-- [x] Clear cooke
+- [x] Clear cookie
+---
+### Authorization
+- [x] Install cookie parser
+- [x] Add auth middleware
+- [ ] Validate user authentication
+- [ ] 
+
 
 
 ### Dynamic Navigation
-
-
-### Authorization
 
 ### Delete movies
 
@@ -132,6 +131,10 @@ SoftUni JS Back-End Workshop
 
 ### Bonus
 - [ ] Automatic login on register
+- [ ] Invalidate token on logout
+
+
+
 
 
 

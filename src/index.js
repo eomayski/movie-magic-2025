@@ -4,6 +4,8 @@ import mongoose from 'mongoose';
 
 
 import routes from './routes.js';
+import cookieParser from 'cookie-parser';
+import authMiddleware from './middleware/authMiddleware.js';
 
 const app = express();
 
@@ -37,7 +39,11 @@ app.set('views', 'src/views');
 app.use(express.static('src/public'));
 
 //Parse form data from req
-app.use(urlencoded())
+app.use(urlencoded());
+
+//Cookie parser
+app.use(cookieParser());
+app.use(authMiddleware);
 
 //Routes
 app.use(routes);
