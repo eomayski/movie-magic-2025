@@ -106,9 +106,19 @@ SoftUni JS Back-End Workshop
 - [x] Add user model
 - [x] Add user service
 - [x] Handle registration (create user in database)
-- [ ] Add password hashing
+- [x] Add password hashing
 ---
-### Registration
+### Login
+- [x] Add login page
+- [ ] Handle login page
+- [ ] Validate user
+- [ ] Validate password
+- [ ] Create token
+
+
+
+
+
 
 
 
