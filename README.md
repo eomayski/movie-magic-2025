@@ -127,6 +127,8 @@ SoftUni JS Back-End Workshop
 --- 
 ### Show creator buttons
 - [x] Show attach, edit and delete buttons
+- [x] Add creator as relation to Movie model
+- [x] Add user as creator on movie create
 - [ ] Show buttons only for creator
 
 

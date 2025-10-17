@@ -1,5 +1,4 @@
 import { Schema, Types, model } from "mongoose";
-import Cast from "./Cast.js";
 
 const movieSchema = new Schema({
     title: String,
@@ -13,7 +12,11 @@ const movieSchema = new Schema({
     casts: [{
         type: Types.ObjectId,
         ref: 'Cast'
-    }]
+    }],
+    creator: {
+        type: Types.ObjectId,
+        ref: 'User'
+    }
 })
 
 const Movie = model('Movie', movieSchema)

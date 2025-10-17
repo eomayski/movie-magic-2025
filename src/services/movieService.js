@@ -28,13 +28,16 @@ export default {
         //return Movie.findOne({_id: movieId});
         return Movie.findById(movieId).populate('casts')
     },
-    create(movieData) {
-        movieData.rating = Number(movieData.rating)
-
+    create(movieData, userId) {
+        
         // const movie =  new Movie(movieData);
         // return movie.save();
-
-        return Movie.create(movieData);
+        
+        return Movie.create({
+            ...movieData,
+            rating: Number(movieData.rating),
+            creator: userId
+            });
     },
     async attach(movieId, castId) {
         //Variant to push castId #1
