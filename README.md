@@ -125,6 +125,11 @@ SoftUni JS Back-End Workshop
 - [x] Group navigation by user type (all, guest and authenticated)
 - [x] Add auth info to handlebars context
 --- 
+### Show creator buttons
+- [x] Show attach, edit and delete buttons
+- [ ] Show buttons only for creator
+
+
 ### Delete movies
 
 ### Edit movies
