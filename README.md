@@ -123,6 +123,8 @@ SoftUni JS Back-End Workshop
 ---
 ### Dynamic Navigation
 - [x] Group navigation by user type (all, guest and authenticated)
+- [x] Add auth info to handlebars context
+
 --- 
 ### Delete movies
 
