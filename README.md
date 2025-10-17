@@ -120,12 +120,10 @@ SoftUni JS Back-End Workshop
 - [x] Add auth middleware
 - [x] Add auth route guard
 - [x] Add guest route guard
-- [ ] Validate user authentication
-
-
-
+---
 ### Dynamic Navigation
-
+- [x] Group navigation by user type (all, guest and authenticated)
+--- 
 ### Delete movies
 
 ### Edit movies
