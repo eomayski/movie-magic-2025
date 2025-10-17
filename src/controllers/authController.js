@@ -12,15 +12,16 @@ authController.post('/register', async (req, res) => {
 
   await userService.register(userData);
 
-  res.redirect('/login');
+  res.redirect('auth/login');
 
 })
 
-
+//render login page
 authController.get('/login', (req, res) => {
   res.render('auth/login');
 })
 
+//Handle login
 authController.post('/login', async (req, res) => {
   const {email, password} = req.body;
 
@@ -29,6 +30,13 @@ authController.post('/login', async (req, res) => {
   //Attach token to cooke
   res.cookie('auth', token)
   
+  res.redirect('/');
+})
+
+//Logout
+authController.get('/logout', (req, res) => {
+  res.clearCookie('auth');
+
   res.redirect('/');
 })
 

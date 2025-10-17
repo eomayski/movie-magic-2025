@@ -115,6 +115,23 @@ SoftUni JS Back-End Workshop
     - [x] Validate password
     - [x] Create token
     - [x] Return token as cooke
+---
+### Logout
+- [x] Add logout action
+- [x] Clear cooke
+
+
+### Dynamic Navigation
+
+
+### Authorization
+
+### Delete movies
+
+### Edit movies
+
+### Bonus
+- [ ] Automatic login on register
 
 
 
