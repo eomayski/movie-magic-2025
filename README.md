@@ -118,7 +118,8 @@ SoftUni JS Back-End Workshop
 ### Authorization
 - [x] Install cookie parser
 - [x] Add auth middleware
-- [x] Add route guard
+- [x] Add auth route guard
+- [x] Add guest route guard
 - [ ] Validate user authentication
 
 
