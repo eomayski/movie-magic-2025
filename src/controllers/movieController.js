@@ -58,24 +58,37 @@ movieController.get('/search', async (req, res) => {
 })
 
 movieController.get('/:movieId/delete', isAuth, async (req, res) => {
-  const movieId = req.params.movieId;
+    const movieId = req.params.movieId;
 
-  const movie = await movieService.getOne(movieId);
+    const movie = await movieService.getOne(movieId);
 
-  if (!movie.creator?.equals(req.user.id)) {
-    return res.redirect('/')
-  }
+    if (!movie.creator?.equals(req.user.id)) {
+        return res.redirect('/')
+    }
 
-  await movieService.delete(movieId)
-  res.redirect('/')
+    await movieService.delete(movieId)
+    res.redirect('/')
 
 })
 
 movieController.get('/:movieId/edit', isAuth, async (req, res) => {
-  const movieId = req.params.movieId;
-  const movie = await movieService.getOne(movieId);
+    const movieId = req.params.movieId;
+    const movie = await movieService.getOne(movieId);
 
-  res.render('movies/edit', {movie, pageTitle: `Edit: ${movie.title}`});
+    if (!movie.creator?.equals(req.user.id)) {
+        return res.redirect('/')
+    }
+
+    res.render('movies/edit', { movie, pageTitle: `Edit: ${movie.title}` });
+})
+
+movieController.post('/:movieId/edit', isAuth, async (req, res) => {
+    const movieId = req.params.movieId;
+    const movieData = req.body;
+
+    await movieService.edit(movieId, movieData);
+
+    res.redirect(`/movies/${movieId}/details`)
 })
 
 export default movieController;

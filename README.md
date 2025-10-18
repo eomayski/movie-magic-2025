@@ -138,6 +138,7 @@ SoftUni JS Back-End Workshop
 ### Edit movies
 - [x] Add edit page
 - [x] Render dynamic edit values
+- [x] Handle edit page
 ---
 ### Bonus
 - [ ] Automatic login on register
