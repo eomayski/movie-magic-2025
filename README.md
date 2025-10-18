@@ -141,10 +141,10 @@ SoftUni JS Back-End Workshop
 - [x] Handle edit page
 ---
 ### Bonus
+- [x] Render dynamic selected option in edit
 - [ ] Automatic login on register
 - [ ] Invalidate token on logout
-- [ ] Render dynamic selected option in edit
-
+- [ ] Refresh token
 
 
 

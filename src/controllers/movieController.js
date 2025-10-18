@@ -79,7 +79,12 @@ movieController.get('/:movieId/edit', isAuth, async (req, res) => {
         return res.redirect('/')
     }
 
-    res.render('movies/edit', { movie, pageTitle: `Edit: ${movie.title}` });
+    const selectedCategory = getCategories(movie.category);
+
+    console.log(selectedCategory);
+    
+
+    res.render('movies/edit', { movie, categories: selectedCategory , pageTitle: `Edit: ${movie.title}` });
 })
 
 movieController.post('/:movieId/edit', isAuth, async (req, res) => {
@@ -90,5 +95,19 @@ movieController.post('/:movieId/edit', isAuth, async (req, res) => {
 
     res.redirect(`/movies/${movieId}/details`)
 })
+
+function getCategories(selectedCategory) {
+    const categories = [
+        {value: "tv-show", label: "TV Show"},
+        {value: "animation", label: "Animation"},
+        {value: "movie", label: "Movie"},
+        {value: "documentary", label: "Documentary"},
+        {value: "short-film", label: "Short Film"},
+    ]
+
+    const viewData = categories.map(category => ({...category, selected: selectedCategory === category.value ? "selected": ""}) )
+
+    return viewData
+}
 
 export default movieController;
