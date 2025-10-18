@@ -80,8 +80,6 @@ movieController.get('/:movieId/edit', isAuth, async (req, res) => {
     }
 
     const selectedCategory = getCategories(movie.category);
-
-    console.log(selectedCategory);
     
 
     res.render('movies/edit', { movie, categories: selectedCategory , pageTitle: `Edit: ${movie.title}` });
