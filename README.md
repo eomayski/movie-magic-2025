@@ -132,7 +132,9 @@ SoftUni JS Back-End Workshop
 - [x] Show buttons only for creator
 ---
 ### Delete movies
-
+- [x] Add delete action
+- [x] Add creator validation
+---
 ### Edit movies
 
 ### Bonus

@@ -47,5 +47,8 @@ export default {
 
         //Variant to push castId #2 (MongoDB style)
         return Movie.findByIdAndUpdate(movieId, {$push: {casts: castId}});
+    },
+    delete(movieId) {
+        return Movie.findByIdAndDelete(movieId);
     }
 }
