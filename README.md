@@ -136,10 +136,15 @@ SoftUni JS Back-End Workshop
 - [x] Add creator validation
 ---
 ### Edit movies
-
+- [x] Add edit page
+- [x] Render dynamic edit values
+---
 ### Bonus
 - [ ] Automatic login on register
 - [ ] Invalidate token on logout
+- [ ] Render dynamic selected option in edit
+
+
 
 
 
