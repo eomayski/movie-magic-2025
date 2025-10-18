@@ -22,11 +22,13 @@
                 <p class="disc">Description: {{movie.description}}</p>
                 <p class="card-category">Category: {{movie.category}}</p>
             </div>
+            {{#if isCreator}}
             <div class="details-btn">
                 <a style="display: inline-block" href="/movies/{{movie.id}}/attach" id="edit-button">Attach</a>
                 <a style="display: inline-block" href="/movies/{{movie.id}}/edit" id="edit-button">Edit</a>
                 <a style="display: inline-block" href="/movies/{{movie.id}}/delete" id="delete-button">Delete</a>
             </div>
+            {{/if}}
         </div>
         <div class="card_right">
             <img src="{{movie.imageUrl}}" alt="movie.imageUrl">

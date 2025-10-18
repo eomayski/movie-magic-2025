@@ -23,8 +23,10 @@ movieController.get('/:movieId/details', async (req, res) => {
     const movieId = req.params.movieId;
     const movie = await movieService.getOne(movieId);
     const ratingView = "&#x2605;".repeat(Math.trunc(movie.rating))
+    //const isCreator = req.user?.id && movie.creator == req.user.id 
+    const isCreator = movie.creator && movie.creator.equals(req.user?.id)
 
-    res.render('movies/details', { movie, pageTitle: movie.title, rating: ratingView });
+    res.render('movies/details', { movie, pageTitle: movie.title, rating: ratingView, isCreator });
 
 })
 
