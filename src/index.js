@@ -30,10 +30,13 @@ app.engine('hbs', handlebars.engine({
     runtimeOptions: {
         allowProtoMethodsByDefault: true,
         allowProtoPropertiesByDefault: true
-    }
+    },
+    // Setup partials
+    partialsDir: 'src/views/partials'
 }))
 app.set('view engine', 'hbs');
 app.set('views', 'src/views');
+
 
 //Setup static middleware
 app.use(express.static('src/public'));
